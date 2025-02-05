@@ -1,0 +1,62 @@
+{
+  "configurations": [
+    {
+      "name": "Arduino",
+      "includePath": [
+        "C:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\cores\\arduino/**",
+        "C:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\variants\\OPTA/**",
+        "C:\\Users\\JohnBurrin\\Documents\\Arduino\\libraries/**",
+        "C:\\Development\\Arduino-2\\UptakeClutchMonitor/**"
+      ],
+      "forcedInclude": [
+        "C:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\cores\\arduino\\Arduino.h"
+      ],
+      "compilerPath": "C:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+      "compilerArgs": [
+        "C:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\arm-none-eabi-gcc\\7-2017q4/bin/arm-none-eabi-g++",
+        "-c",
+        "-w",
+        "-g3",
+        "-nostdlib",
+        "@C:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\variants\\OPTA/defines.txt",
+        "@C:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\variants\\OPTA/cxxflags.txt",
+        "-MMD",
+        "-mcpu=cortex-m7",
+        "-mfloat-abi=softfp",
+        "-mfpu=fpv5-d16",
+        "-DARDUINO=10607",
+        "-DARDUINO_OPTA",
+        "-DARDUINO_ARCH_MBED_OPTA",
+        "-DARDUINO_ARCH_MBED",
+        "-DARDUINO_LIBRARY_DISCOVERY_PHASE=0",
+        "-IC:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\cores\\arduino",
+        "-IC:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\variants\\OPTA",
+        "-DCM4_BINARY_START=0x60000000",
+        "-DCM4_BINARY_END=0x60040000",
+        "-DCM4_RAM_END=0x60080000",
+        "-IC:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\cores\\arduino/api/deprecated",
+        "-IC:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\cores\\arduino/api/deprecated-avr-comp",
+        "-iprefixC:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\cores\\arduino",
+        "@C:\\Users\\JohnBurrin\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\mbed_opta\\4.2.1\\variants\\OPTA/../OPTA/includes.txt",
+        "c:\\Development\\Arduino-2\\UptakeClutchMonitor\\build\\sketch\\UptakeClutchMonitor.ino.cpp",
+        "-o",
+        "c:\\Development\\Arduino-2\\UptakeClutchMonitor\\build\\sketch\\UptakeClutchMonitor.ino.cpp.o"
+      ],
+      "defines": [
+        "ARDUINO=10607",
+        "ARDUINO_OPTA",
+        "ARDUINO_ARCH_MBED_OPTA",
+        "ARDUINO_ARCH_MBED",
+        "ARDUINO_LIBRARY_DISCOVERY_PHASE=1",
+        "CM4_BINARY_START=0x60000000",
+        "CM4_BINARY_END=0x60040000",
+        "CM4_RAM_END=0x60080000",
+        "ARDUINO_LIBRARY_DISCOVERY_PHASE=0",
+        "USBCON"
+      ],
+      "cStandard": "c17",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

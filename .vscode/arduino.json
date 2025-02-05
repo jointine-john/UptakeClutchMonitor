@@ -1,0 +1,17 @@
+{
+  "port": "COM3",
+  "configuration": "split=100_0,target_core=cm7,security=none",
+  "output": "build",
+  "board": "arduino:mbed_opta:opta",
+  "programmer": "",
+  "useProgrammer": false,
+  "configurationRequired": true,
+  "monitorPortSettings": {
+    "port": "COM3",
+    "baudRate": 115200,
+    "lineEnding": "\n",
+    "dataBits": 8,
+    "parity": "none",
+    "stopBits": "one"
+  }
+}
